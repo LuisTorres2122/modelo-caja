@@ -1,0 +1,178 @@
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:blueviolet ;
+   
+}
+
+
+header
+{
+    background-color: greenyellow;
+    border: 5px solid white;
+}
+
+nav, footer, aside
+{
+ background-color: white;
+ border: 5px solid black;
+
+}
+section
+{
+    background-color: red;
+    border: 5px solid white;
+
+}
+
+article
+{
+    background-color: aqua;
+    border: 5px solid white;
+}
+
+p
+{
+    background-color: orange;
+    border: 5px solid white;
+}
+
+.header
+{
+    margin-top: 50px;
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    
+}
+
+.header nav
+{
+    width: 80%;
+    height: 30px;
+    margin: 100px auto;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+
+.sectiond
+{
+    width: 100%;
+    height: 500px;
+}
+
+.sectioni
+{
+    width: 100%;
+}
+
+.sectiond header
+{
+    width: 90%;
+    height: 30px;
+    margin: 20px auto;
+}
+
+.sectiond article
+{
+    width: 90%;
+    margin: 20px auto;
+    height: 380px;
+}
+
+
+.sectiond p, footer
+{
+    margin-top: 50px;
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    
+}
+
+
+
+.d p
+{
+  
+    height: 35px;
+    width: 100%;
+   
+}
+
+.sectiond aside
+{
+   
+    width: 100%;
+    height: 30px;
+   
+}
+
+
+
+.grid2
+{
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(4, 1fr );
+    gap: 50px;
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 15px;
+   
+}
+
+
+.grid2 footer
+{
+    grid-column: 1 / 3;
+    grid-row: 3;
+}
+
+
+.sectioni header
+{
+    width: 90%;
+    height: 40px;
+    margin: 25px auto;
+
+}
+
+.sectioni nav
+{
+    width: 90%;
+    height: 350px;
+    margin: 15px auto;
+}
+
+
+
+
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    
+}
+
+
+
